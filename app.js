@@ -186,7 +186,7 @@ playButton.onclick = async function visualise() {
 
     const para = document.createElement("p");
     para.setAttribute("class", "queen-info");
-    para.innerHTML = `For ${n}x${n} board, ${array[n] - 1} arrangements are possible.`;
+    para.innerHTML = `For ${n}x${n} board, ${array[n]} arrangements are possible.`;
     arrangement.appendChild(para);
 
     //Adding boards to the Div
